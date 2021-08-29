@@ -1,0 +1,24 @@
+{
+    "name": "cra-template-elrond-dapp",
+    "version": "0.1.0",
+    "keywords": [
+      "react",
+      "create-react-app",
+      "template",
+      "typescript"
+    ],
+    "description": "Custom Elrond Dapp template for Create React App.",
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "license": "MIT",
+    "engines": {
+      "node": ">=12"
+    },
+    "files": [
+      "template",
+      "template.json"
+    ]
+  }
+  
