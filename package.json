@@ -1,16 +1,20 @@
 {
     "name": "cra-template-elrond-dapp",
     "version": "0.1.0",
+    "author": "Julian Ćwirko (julian.io)",
     "keywords": [
       "react",
       "create-react-app",
       "template",
-      "typescript"
+      "typescript",
+      "elrond",
+      "blockchain",
+      "dapp"
     ],
     "description": "Custom Elrond Dapp template for Create React App.",
     "repository": {
       "type": "git",
-      "url": ""
+      "url": "https://github.com/juliancwirko/cra-template-elrond-dapp"
     },
     "license": "MIT",
     "engines": {
