@@ -1,4 +1,4 @@
-## Elrond Dapp custom starter kit
+## Elrond Dapp - custom starter kit
 
 Custom Elrond Blockchain Dapp React starter kit
 
@@ -16,6 +16,12 @@ npm init react-app my-app --template elrond-dapp
 yarn create react-app my-app --template elrond-dapp
 ```
 (yarn create is available in Yarn 0.25+)
+
+```
+cd my-app
+cp .env.example .env.local
+yarn start
+```
 
 ### Configuration
 

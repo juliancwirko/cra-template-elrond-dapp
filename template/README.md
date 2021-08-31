@@ -1,6 +1,20 @@
-### Configuration
+### Elrond Dapp - custom starter kit
 
 Remember to configure .env file. Review and rename `.env.example` to `.env.local`
+
+```
+yarn create reac-app my-app --template elrond-dapp
+```
+or
+```
+npx create-react-app my-app --template elrond-dapp
+```
+then
+```
+cd my-app
+cp .env.example .env.local
+yarn start
+```
 
 Dependencies: 
 
