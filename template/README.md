@@ -1,6 +1,6 @@
 ### Elrond Dapp - custom starter kit
 
-Remember to configure .env file. Review and rename `.env.example` to `.env.local`
+Remember to configure .env file. Review and rename `.env.devnet.example` (or `.env.testnet.example`) to `.env.local`. Examples are for the devnet and the testnet in separate files.
 
 ```
 yarn create reac-app my-app --template elrond-dapp
@@ -12,7 +12,7 @@ npx create-react-app my-app --template elrond-dapp
 then
 ```
 cd my-app
-cp .env.example .env.local
+cp .env.devnet.example .env.local
 yarn start
 ```
 
