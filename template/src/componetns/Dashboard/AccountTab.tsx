@@ -1,4 +1,4 @@
-import { UI } from '@elrondnetwork/dapp-utils';
+import { Ui } from '@elrondnetwork/dapp-utils';
 import { Pane, Heading, Paragraph, Link, Text } from 'evergreen-ui';
 import { useMediaQuery } from 'react-responsive';
 import * as Dapp from '@elrondnetwork/dapp';
@@ -11,21 +11,21 @@ const AccountTab = () => {
 
   return (
     <>
-      <Pane display='flex' flexDirection={smallRes ? 'column' : 'row'}>
+      <Pane display="flex" flexDirection={smallRes ? 'column' : 'row'}>
         <Pane
           width={smallRes ? '100%' : '50%'}
           marginRight={smallRes ? 0 : 10}
           marginBottom={25}
           padding={30}
           elevation={1}
-          backgroundColor='white'
+          backgroundColor="white"
         >
           <Heading size={700} marginBottom={10}>
             Your wallet address:
           </Heading>
-          <Paragraph>
+          <Paragraph data-testid="accountTab-address">
             <Link href={`${explorerAddress}accounts/${address}`}>
-              <Text wordWrap='break-word'>{address}</Text>
+              <Text wordWrap="break-word">{address}</Text>
             </Link>
           </Paragraph>
         </Pane>
@@ -36,13 +36,13 @@ const AccountTab = () => {
           marginBottom={25}
           padding={30}
           elevation={1}
-          backgroundColor='white'
+          backgroundColor="white"
         >
           <Heading size={700} marginBottom={10}>
             Your wallet balance:
           </Heading>
-          <Paragraph>
-            <UI.Denominate value={account.balance} erdLabel='xEGLD' />
+          <Paragraph data-testid="accountTab-balance">
+            <Ui.Denominate value={account.balance} erdLabel="xEGLD" />
           </Paragraph>
         </Pane>
       </Pane>

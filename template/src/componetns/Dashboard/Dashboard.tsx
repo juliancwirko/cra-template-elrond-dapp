@@ -17,16 +17,16 @@ const Dashboard: React.FC = () => {
             <Tab
               key={tab}
               id={tab}
-              appearance='primary'
+              appearance="primary"
               onSelect={() => setTabSelectedIndex(index)}
               isSelected={index === selectedIndex}
-              className='no-focus'
+              className="no-focus"
             >
               {tab}
             </Tab>
           ))}
         </Tablist>
-        <Pane flex='1'>{selectedIndex === 0 && <AccountTab />}</Pane>
+        <Pane flex="1">{selectedIndex === 0 && <AccountTab />}</Pane>
       </Pane>
     </MainLayout>
   );

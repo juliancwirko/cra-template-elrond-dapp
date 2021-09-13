@@ -5,10 +5,14 @@ import { Pane, Button } from 'evergreen-ui';
 const Home: React.FC = () => {
   const history = useHistory();
 
+  const unlock = () => {
+    history.push('/unlock');
+  };
+
   return (
     <MainLayout>
-      <Pane backgroundColor='white' elevation={1} padding={30}>
-        <Button onClick={() => history.push('/unlock')}>Unlock</Button>
+      <Pane backgroundColor="white" elevation={1} padding={30}>
+        <Button onClick={unlock}>Unlock</Button>
       </Pane>
     </MainLayout>
   );
