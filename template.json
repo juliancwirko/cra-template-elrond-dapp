@@ -1,9 +1,9 @@
 {
   "package": {
     "dependencies": {
-      "@elrondnetwork/dapp": "^0.0.60",
+      "@elrondnetwork/dapp": "^0.0.64",
       "@elrondnetwork/dapp-utils": "^0.0.14",
-      "@elrondnetwork/erdjs": "^8.0.1-alpha.5",
+      "@elrondnetwork/erdjs": "^8.0.1-alpha.8",
       "evergreen-ui": "^6.5.0",
       "moment": "^2.29.1",
       "react": "^17.0.2",
@@ -35,11 +35,13 @@
       "eslint-plugin-flowtype": "^5.9.2",
       "eslint-plugin-jsx-a11y": "^6.4.1",
       "eslint-plugin-react": "^7.25.1",
-      "eslint-plugin-react-hooks": "^4.2.0"
+      "eslint-plugin-react-hooks": "^4.2.0",
+      "shx": "^0.3.3"
     },
     "scripts": {
       "lint": "eslint --ext ts,tsx,js src --fix",
-      "prettier": "prettier --write 'src/**/*.{ts,tsx,js,json}'"
+      "prettier": "prettier --write 'src/**/*.{ts,tsx,js,json}'",
+      "postinstall": "shx cp .env.devnet.example .env.local"
     },
     "eslintConfig": {
       "parser": "@typescript-eslint/parser",

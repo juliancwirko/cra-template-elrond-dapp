@@ -19,13 +19,14 @@ yarn create react-app my-app --template elrond-dapp
 
 ```
 cd my-app
-cp .env.devnet.example .env.local
 yarn start
 ```
 
 ### Configuration
 
-Remember to configure .env file. Review and rename `.env.devnet.example` (or `.env.testnet.example`) to `.env.local`. Examples are for the devnet and the testnet in separate files.
+**By default postinstall script will setup .env.local with devnet configuration.**
+
+There are examples are for the devnet and the testnet in separate files: `.env.devnet.example` and `.env.testnet.example`.
 
 Dependencies: 
 
