@@ -1,5 +1,7 @@
 ## Elrond Dapp - custom starter kit
 
+**Please be aware that this template uses the older Elrond dapp library.**
+
 Custom Elrond Blockchain Dapp React starter kit
 
 ```
