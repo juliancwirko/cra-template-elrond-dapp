@@ -1,6 +1,10 @@
-## Elrond Dapp - custom starter kit
+## [Deprecated] Elrond Dapp - custom starter kit
 
-**Please be aware that this template uses the older Elrond dapp library.**
+---
+
+**Deprecated!** Please check the official tools or [useElven](https://www.useelven.com)
+
+---
 
 Custom Elrond Blockchain Dapp React starter kit
 
